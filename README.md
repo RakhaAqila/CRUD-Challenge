@@ -1,8 +1,11 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+This project use NextJS as the main framework and prisma for the database
+
 ## Getting Started
 
-First, install the package:
+First you need to clone the repo, then install the package:
+
 ```bash
 npm install
 ```
@@ -25,17 +28,22 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+## Demo
+Create tasks with different priorities
+<img width="1125" height="949" alt="image" src="https://github.com/user-attachments/assets/608e6e22-7746-41c9-8d8f-ab8854ed8905" />
 
-To learn more about Next.js, take a look at the following resources:
+Toggle task completion status
+<img width="1043" height="950" alt="image" src="https://github.com/user-attachments/assets/47fa8901-2aa5-4985-8628-6e66f6d79afa" />
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Show filtering by status and priority
+<img width="1108" height="953" alt="image" src="https://github.com/user-attachments/assets/b1b581ac-5ce7-4e3c-a5be-3db041a4ac04" />
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Demonstrate Task Deletion
+<img width="1160" height="958" alt="image" src="https://github.com/user-attachments/assets/a33ffc5e-4b90-47af-b876-cd810435dd00" />
 
-## Deploy on Vercel
+Verify task counters update correctly
+Without any tasks
+<img width="1064" height="962" alt="image" src="https://github.com/user-attachments/assets/013c1296-059a-4bcf-a4f7-72f03ed10a80" />
+With tasks
+<img width="1181" height="951" alt="image" src="https://github.com/user-attachments/assets/4fe187d1-0321-4543-aff0-3132f0ad5b5d" />
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
